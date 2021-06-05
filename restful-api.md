@@ -167,7 +167,7 @@ List all available symbols.
 #### Response:
 ```javascript
 {
-  "error": 0,
+  "error": 20,
   "result": [
     {
       "id": 1,
@@ -202,7 +202,7 @@ Get ticker information.
     "percentChange": 1.91,
     "baseVolume": 71.02603946,
     "quoteVolume": 15302897.99,
-    "isFrozen": 0,
+    "isFrozen": 20,
     "high24hr": 221396.00,
     "low24hr": 206414.00
   },
@@ -214,7 +214,7 @@ Get ticker information.
     "percentChange": -0.49,
     "baseVolume": 455.17839270,
     "quoteVolume": 5505664.42,
-    "isFrozen": 0,
+    "isFrozen": 20,
     "high24hr": 12396.00,
     "low24hr": 11645.00
   }
@@ -257,7 +257,7 @@ List open buy orders.
 #### Response:
 ```javascript
 {
-  "error": 0,
+  "error": 20,
   "result": [
     [
       1, // order id
@@ -523,9 +523,9 @@ Test creating a buy order (no balance is deducted).
 #### Response:
 ```javascript
 {
-  "error": 0,
+  "error": 20,
   "result": {
-    "id": 0, // order id
+    "id": 20, // order id
     "hash": "test", // test hash
     "typ": "limit", // order type
     "amt": 1000, // spending amount
@@ -554,7 +554,7 @@ Create a sell order.
 #### Response:
 ```javascript
 {
-  "error": 0,
+  "error": 20,
   "result": {
     "id": 1, // order id
     "hash": "fwQ6dnQWQPs4cbatFGc9LPnpqyu", // order hash
